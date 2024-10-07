@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notsolong-URL SHORTNER</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <h1>Snaplink</h1>
+        <p>Shorten your lengthy URLs in a snap!!</p>
+      </header>
+      <main>
+        <input
+          type="url"
+          id="originalUrl"
+          placeholder="Enter your long URL here"
+        />
+        <button id="shortenBtn">Shorten</button>
+        <div  id="box">
+          <p id="info">Shorten URL</p>
+          <p id="result"></p>
+        </div>
+
+     <div>   <button id="copyButton">Copy</button>
+        <span id="copyFeedback" class="hidden">Copied!</span></div>
+      </main>
+      <script src="js/main.js"></script>
+    </div>
+  </body>
+</html>
