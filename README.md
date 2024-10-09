@@ -10,7 +10,7 @@ The unquie id redirects the user to the orignial url.
 ### BACKEND TECH:
 <br>◦[Express](https://expressjs.com/)  Node.js framework used for buildin REST API</br>
 <br>◦[MongoDB](https://www.mongodb.com/) Document oriented NoSQL database</br>
-<br>◦[Mongoose](https://mongoosejs.com/) MongoDB database object modeling tool</br>
+<br>◦[Mongoose](https://mongoosejs.com/) MongoDB database</br>
 <br>◦[ShortID](https://www.npmjs.com/package/shortid) Used for generating unqiue and random id for a given URL of some particular length</br>
 ### FRONTEND TECH:
 <br>◦[HTML and CSS](https://en.wikipedia.org/wiki/CSS) Used for styling the page </br>
